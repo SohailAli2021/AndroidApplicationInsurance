@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/carinsurance"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/carinsurance"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.INSURENCEAPP"
+        tools:targetApi="31">
+        <activity
+            android:name=".RegisterUserDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdatedproActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminShowActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShowActivityuserdata"
+            android:exported="true" />
+        <activity
+            android:name=".ViewPDFActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PDFActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuyActivityUser"
+            android:exported="true" />
+        <activity
+            android:name=".ShowPolicyActivityUser"
+            android:exported="false" />
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdatePolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PolicyViewUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewPolicyAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Register_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".DashboardActivity1"
+            android:exported="true" />
+        <activity
+            android:name=".Login_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

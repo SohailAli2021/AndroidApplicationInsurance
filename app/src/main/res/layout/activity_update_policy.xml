@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdatePolicyActivity"
+    android:padding="16dp"
+    android:background="@drawable/cut_card_background">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:text="Edit Policy"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/pnameupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:hint="Policy Name"
+        android:padding="20dp"
+        tools:ignore="UnknownId"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/termupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pnameupdate"
+        android:layout_marginTop="16dp"
+        android:hint="Policy Term"
+        android:padding="20dp"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/pnumupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/termupdate"
+        android:layout_marginTop="16dp"
+        android:inputType="number"
+        android:hint="Policy Number"
+        android:textColorHint="@color/black"
+        android:padding="20dp" />
+
+
+    <EditText
+        android:id="@+id/pemailupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/termupdate"
+        android:layout_marginTop="110dp"
+        android:textColorHint="@color/black"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="20dp" />
+
+
+    <EditText
+        android:id="@+id/pcontatupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/termupdate"
+        android:layout_marginTop="198dp"
+        android:hint="Contact"
+        android:textColorHint="@color/black"
+        android:inputType="phone"
+        android:padding="20dp" />
+
+
+    <EditText
+        android:id="@+id/pupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/termupdate"
+        android:layout_marginTop="303dp"
+        android:hint="Policy"
+        android:textColorHint="@color/black"
+        android:inputType="number"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/pupdateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pupdate"
+        android:layout_marginTop="32dp"
+        android:text="Update"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="8dp" />
+
+</RelativeLayout>

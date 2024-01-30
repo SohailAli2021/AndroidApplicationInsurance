@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="50dp"
+    android:elevation="5dp"
+    app:cardUseCompatPadding="true">
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Policy"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_marginTop="18dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/sname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sname"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/img1"
+                android:text="This is Policy Name"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="NotSibling">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/sterm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sname"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/img1"
+                android:text="This is Policy Term"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="NotSibling">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/snumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sterm"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/img1"
+                android:text="This is Policy Number"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="NotSibling">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/semail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/snumber"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/img1"
+                android:text="This is Email"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="NotSibling">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/scontactnumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/semail"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/img1"
+                android:text="This is contact"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="NotSibling">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/spolicy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scontactnumber"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/img1"
+                android:text="This is Policy"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="NotSibling">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:id="@+id/buyerids"
+                android:onClick="Submit_buy"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="110dp"
+                android:src="@drawable/moneybags" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

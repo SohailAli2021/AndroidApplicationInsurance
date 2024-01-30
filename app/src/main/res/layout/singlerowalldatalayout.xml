@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/psname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/psname"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/img1"
+                android:text="This is Policy Name"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="NotSibling">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/psnic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/psname"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/img1"
+                android:text="This is CNIC"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="NotSibling">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/psaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/psnic"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/img1"
+                android:text="This is Policy Number"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="NotSibling">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/psemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/psaddress"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-7dp"
+                android:layout_toRightOf="@id/img1"
+                android:text="This is Email"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="NotSibling">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/pscontactnum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/psemail"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/img1"
+                android:text="This is contact"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="NotSibling">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/pspolicytime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pscontactnum"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/img1"
+                android:text="This is Policy"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="NotSibling">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
